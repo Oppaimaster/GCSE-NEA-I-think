@@ -5,7 +5,6 @@ from random import *
 
 symbols = ["!","$","%","^","&","*","(",")","-","_","=","+"]
 
-
 #Function for if the user want to check how strong their password is
 def checker():
   points = 0
@@ -73,3 +72,5 @@ if Option == 1:
   checker()
 elif Option == 2:
   gen()
+
+
